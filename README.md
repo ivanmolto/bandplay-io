@@ -76,6 +76,9 @@ You can sell tracks from other bands as easy as tipping the track you want to cr
 28. All the tracks tipped.
 
 
+### Progressive Web App (PWA)
+
+
 
 ## External Links
 
@@ -93,8 +96,6 @@ You can sell tracks from other bands as easy as tipping the track you want to cr
 
 [Mail](https://arweave.net/27WsYOcNHWweInDArUK94_GsBeuQKPXalsnwVPPRfe4?to=huguJpLCDyyGMLeUtOnKaLhSyCPrrn-if5XEDzHuqIM)
 
-
-### Progressive Web App (PWA)
 
 
 ## Features to be added in the next days
@@ -116,7 +117,7 @@ _To be discussed with Arweave Team_.
 - PST Gateway. _Arweave Team_
 
 
-## PLY - PROFIT SHARING COMMUNITY TOKEN
+## PLY - Profit Sharing Community Token
 - 500,000,000 PLY minted initially.
 
 
