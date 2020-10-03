@@ -6,6 +6,8 @@ We are laying the foundation of a decentralised music industry creating value, a
 We will constantly experiment with new ways of increasing revenue and satisfaction for musicians and fans.
 Because we will flip the music industry upside down again.
 
+Permaweb link [BΔNDPLΔY](https://arweave.net/ItSWnYELZzdPx5XV2LVFZr1vUDIFXtygFNH7uJ9fcgE)
+
 
 ## Intro
 
