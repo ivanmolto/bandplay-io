@@ -41,16 +41,6 @@
   }
 </script>
 
-<style>
-  audio {
-    width: 100%;
-    margin: 0.5em 0 0.5em 0;
-  }
-  .playing {
-    color: #dd6b20;
-  }
-</style>
-
 <div>
   <div class="relative pb-5/6">
     <a href="#/track/{id}" class="no-underline">
@@ -60,16 +50,18 @@
         alt={title} />
     </a>
   </div>
-  <div class="relative px-4 -mt-16" class:playing={!paused}>
+  <div
+    class={'relative px-4 -mt-16 ' + (paused ? 'text-gray-900' : 'text-orange-600')}>
     <div class="bg-white rounded-lg px-1 py-1 shadow-lg opacity-75">
       <audio
-        class="bg-white"
+        class="bg-white w-full mt-2 mb-2"
         bind:this={audio}
         bind:paused
         on:play={stopOthers}
         controls
-        src={musicUrl}
-        controlsList="nodownload" />
+        src={musicUrl}>
+        <track default kind="captions" srclang="en" />
+      </audio>
       <div class="mt-1 font-semibold text-base leading-tight truncate">
         <a
           href="#/track/{id}"
@@ -82,7 +74,7 @@
       <div
         class="mt-1 text-orange-900 font-bold text-sm leading-tight
           truncate">
-        <a href={musicUrl}> download </a>
+        <a href={musicUrl} target="_blank" rel="noopener"> download </a>
       </div>
     </div>
   </div>

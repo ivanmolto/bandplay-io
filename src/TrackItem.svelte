@@ -52,18 +52,15 @@
   }
 </script>
 
-<style>
-  audio {
-    width: 100%;
-    margin: 0.5em 0 0.5em 0;
-  }
-  .playing {
-    color: #dd6b20;
-  }
-</style>
-
 <div>
   <div class="relative pb-5/6">
+    {#if badge == 'Featured'}
+      <span
+        class=" bg-orange-600 text-white text-xs px-2 right-0 -mt-2 -mr-1
+                rounded-md font-semibold absolute lowercase tracking-wide z-10">
+        {badge}
+      </span>
+    {/if}
     <a href="#/track/{id}" class="no-underline">
       <img
         class="absolute inset-0 h-full w-full rounded-lg shadow-md object-cover"
@@ -71,16 +68,19 @@
         alt={title} />
     </a>
   </div>
-  <div class="relative px-4 -mt-16" class:playing={!paused}>
+  <div
+    class={'relative px-4 -mt-16 ' + (paused ? 'text-gray-900' : 'text-orange-600')}>
     <div class="bg-white rounded-lg px-1 py-1 shadow-lg opacity-75">
       <audio
-        class="bg-white"
+        class="bg-white w-full mt-2 mb-2"
         bind:this={audio}
         bind:paused
         on:play={stopOthers}
         controls
         src={musicUrl}
-        controlsList="nodownload" />
+        controlsList="nodownload">
+        <track default kind="captions" srclang="en" />
+      </audio>
       <div class="mt-1 font-semibold text-base leading-tight truncate">
         <a
           href="#/track/{id}"
@@ -90,21 +90,10 @@
         class="mt-1 text-gray-900 font-light text-base leading-tight truncate">
         <a href="#/artist/{author}">{artist}</a>
       </div>
-      <div class="flex">
-        <div
-          class="w-3/5 mt-1 text-gray-900 font-light lowercase text-sm leading-tight
+      <div
+        class="mt-1 text-gray-900 font-light lowercase text-sm leading-tight
           truncate">
-          {genre}
-        </div>
-        <div class="w-2/5">
-          {#if badge == 'Featured'}
-            <span
-              class=" bg-orange-300 text-gray-800 text-xs px-2 inline-block
-                rounded-md font-semibold tracking-wide lowercase">
-              {badge}
-            </span>
-          {/if}
-        </div>
+        {genre}
       </div>
     </div>
   </div>
