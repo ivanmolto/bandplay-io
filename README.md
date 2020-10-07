@@ -6,6 +6,8 @@ We are laying the foundation of a decentralised music industry creating value, a
 We will constantly experiment with new ways of increasing revenue and satisfaction for musicians and fans.
 Because we will flip the music industry upside down again.
 
+Permaweb link [BΔNDPLΔY](https://arweave.net/ItSWnYELZzdPx5XV2LVFZr1vUDIFXtygFNH7uJ9fcgE)
+
 
 ## Intro
 
@@ -76,6 +78,9 @@ You can sell tracks from other bands as easy as tipping the track you want to cr
 28. All the tracks tipped.
 
 
+### Progressive Web App (PWA)
+
+
 
 ## External Links
 
@@ -93,8 +98,6 @@ You can sell tracks from other bands as easy as tipping the track you want to cr
 
 [Mail](https://arweave.net/27WsYOcNHWweInDArUK94_GsBeuQKPXalsnwVPPRfe4?to=huguJpLCDyyGMLeUtOnKaLhSyCPrrn-if5XEDzHuqIM)
 
-
-### Progressive Web App (PWA)
 
 
 ## Features to be added in the next days
@@ -116,7 +119,7 @@ _To be discussed with Arweave Team_.
 - PST Gateway. _Arweave Team_
 
 
-## PLY - PROFIT SHARING COMMUNITY TOKEN
+## PLY - Profit Sharing Community Token
 - 500,000,000 PLY minted initially.
 
 
