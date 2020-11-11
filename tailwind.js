@@ -3,6 +3,17 @@ module.exports = {
     "./src/**/*.svelte"
   ],
   theme: {
+    opacity: {
+      '0': '0',
+      '25': '.25',
+      '50': '.50',
+      '75': '.75',
+      '90': '.90',
+      '100': '1'
+    },
+    fontFamily: {
+      montserrat: ['Montserrat', 'sans-serif'],
+    },
     extend: {
       spacing: {
         '72': '18rem',
