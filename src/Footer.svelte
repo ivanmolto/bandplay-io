@@ -1,5 +1,5 @@
 <footer
-  class="bg-gray-200 sm:flex sm:items-center sm:justify-between mt-8 pb-8">
+  class="font-montserrat bg-gray-200 sm:flex sm:items-center sm:justify-between mt-8 pb-8">
   <nav class="block sm:flex sm:items-center sm:px-4">
     <div class="sm:flex sm:items-center">
       <div class="px-2 pt-2 pb-5 border-gray-800 sm:flex sm:py-0 sm:px-0">

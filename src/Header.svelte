@@ -17,7 +17,8 @@
   }
 </script>
 
-<header class="bg-gray-900 sm:flex sm:items-center sm:justify-between">
+<header
+  class="font-montserrat bg-gray-900 sm:flex sm:items-center sm:justify-between">
   <div class="flex justify-between px-4 py-3">
     <div class="px-2">
       <img
@@ -84,7 +85,7 @@
               href="#/home"
               class="block px-3 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 mt-1 sm:text-sm sm:px-2">
-              Tracks
+              Releases
             </a>
             <a
               href="#/library/{address}"
@@ -93,10 +94,10 @@
               My Library
             </a>
             <a
-              href="#/editor"
+              href="#/publish"
               class="block px-3 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 mt-1 sm:text-sm sm:px-2">
-              Add Track
+              Add Release
             </a>
             <button
               type="button"
@@ -112,7 +113,7 @@
               href="#/home"
               class="block px-4 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 sm:text-sm sm:px-2">
-              Tracks
+              Releases
             </a>
             <div>
               <label
@@ -161,7 +162,7 @@
               href="#/home"
               class="block px-3 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 sm:text-sm sm:px-2">
-              Tracks
+              Releases
             </a>
             <a
               href="#/library/{address}"
@@ -170,10 +171,10 @@
               My Library
             </a>
             <a
-              href="#/editor"
+              href="#/publish"
               class="block px-3 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 sm:text-sm sm:px-2">
-              Add Track
+              Add Release
             </a>
             <div>
               <button
@@ -190,7 +191,7 @@
               href="#/home"
               class="block px-4 py-1 rounded font-semibold text-white
                 hover:bg-orange-600 sm:text-sm sm:px-2">
-              Tracks
+              Releases
             </a>
             <div>
               <label
