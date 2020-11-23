@@ -61,24 +61,24 @@ export let editGenres = [
   { id: 9, text: "Experimental" },
   { id: 10, text: "Flamenco" },
   { id: 11, text: "Folk" },
-  { id: 12, text: "Gospel" },
-  { id: 13, text: "HipHop/Rap" },
-  { id: 14, text: "Holiday" },
-  { id: 15, text: "Jazz" },
-  { id: 16, text: "Kids" },
-  { id: 17, text: "Latin" },
-  { id: 18, text: "Metal" },
-  { id: 19, text: "Podcast" },
-  { id: 20, text: "Pop" },
-  { id: 21, text: "Punk" },
-  { id: 22, text: "R&B/Soul" },
-  { id: 23, text: "Reggae" },
-  { id: 24, text: "Rock" },
-  { id: 25, text: "Soundtrack" },
-  { id: 26, text: "Spoken" },
-  { id: 27, text: "Urban" },
-  { id: 28, text: "Vocal" },
-  { id: 29, text: "World" },
+  { id: 12, text: "Global" },
+  { id: 13, text: "Gospel" },
+  { id: 14, text: "HipHop/Rap" },
+  { id: 15, text: "Holiday" },
+  { id: 16, text: "Jazz" },
+  { id: 17, text: "Kids" },
+  { id: 18, text: "Latin" },
+  { id: 19, text: "Metal" },
+  { id: 20, text: "Podcast" },
+  { id: 21, text: "Pop" },
+  { id: 22, text: "Punk" },
+  { id: 23, text: "R&B/Soul" },
+  { id: 24, text: "Reggae" },
+  { id: 25, text: "Rock" },
+  { id: 26, text: "Soundtrack" },
+  { id: 27, text: "Spoken" },
+  { id: 28, text: "Urban" },
+  { id: 29, text: "Vocal" },
 ];
 export let editLocations = [
   { id: 1, text: "Africa" },
@@ -94,8 +94,9 @@ export let editBadges = [
   { id: 2, text: "Featured" },
 ];
 export let editBootlegs = [
-  { id: 1, text: "Accepted" },
-  { id: 2, text: "Not Accepted" },
+  { id: 1, text: "Not Accepted" },
+  { id: 2, text: "Accepted" },
+  
 ];
  export let editTips = [
   { id: 1, text: "0.25" },
@@ -106,6 +107,19 @@ export let editBootlegs = [
   { id: 6, text: "1.50" },
   { id: 7, text: "1.75" },
   { id: 8, text: "2.00" },
+  { id: 8, text: "2.25" },
+  { id: 8, text: "2.50" },
+  { id: 8, text: "2.75" },
+  { id: 8, text: "3.00" },
+  { id: 8, text: "3.25" },
+  { id: 8, text: "3.50" },
+  { id: 8, text: "3.75" },
+  { id: 8, text: "4.00" },
+  { id: 8, text: "4.25" },
+  { id: 8, text: "4.50" },
+  { id: 8, text: "4.75" },
+  { id: 8, text: "5.00" },
+
 ]; 
 
 export let editLicenses = [
@@ -119,5 +133,5 @@ export let editLicenses = [
 ]; 
 export let editPayments = [
   { id: 1, text: "Wallet" },
-  { id: 2, text: "Profit-Sharing Community" },
+  { id: 2, text: "Profit-Sharing Token" },
 ]; 
