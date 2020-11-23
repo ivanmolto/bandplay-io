@@ -1,14 +1,17 @@
 <script>
-  import TrackGridAddress from "./TrackGridAddress.svelte";
-  import { tracksByArtistStore } from "./stores.js";
   import { onMount } from "svelte";
-  import { accountByAddress, tracksByAddress } from "./tracks.js";
-  import TrackGridFan from "./TrackGridFan.svelte";
-  import { myFansStore } from "./stores.js";
-  import { TIPS_FAN, TX_PICKS } from "./constants";
-  import { myTracksTipped } from "./tracks.js";
+  import ReleaseGridAddress from "./ReleaseGridAddress.svelte";
+  import ReleaseGridFan from "./ReleaseGridFan.svelte";
+  import { releasesByArtistStore, myFansStore } from "./stores.js";
+  import {
+    accountByAddress,
+    releasesByAddress,
+    myReleasesTipped,
+  } from "./releases.js";
+  import { TIPS_FAN } from "./constants";
   import { documentTitle } from "./helpers.js";
   export let txid;
+  let titleArtist = "";
   let accountActivated = false;
   let referralFans = false;
   let handleName = "";
@@ -17,34 +20,37 @@
   let facebookUrl = "";
   let twitterUrl = "";
   let accountSettings;
-  let tracksArtist = [];
-  let tracksAddress = [];
+  let releasesArtist = [];
+  let releasesAddress = [];
   const tipTag = TIPS_FAN + txid;
-  let tracksFansOf = [];
-  let referredTracks = [];
+  let releasesFansOf = [];
+  let referredReleases = [];
   onMount(async () => {
-    tracksAddress = await tracksByAddress(txid);
-    for (let i = 0; i < tracksAddress.length; i++) {
+    releasesAddress = await releasesByAddress(txid);
+    for (let i = 0; i < releasesAddress.length; i++) {
+      titleArtist = releasesAddress[i].tags["Artist"];
       let item = {
-        id: tracksAddress[i].id,
-        title: tracksAddress[i].tags["Title"],
-        artist: tracksAddress[i].tags["Artist"],
-        imageUrl: tracksAddress[i].tags["ImageUrl"],
-        musicUrl: tracksAddress[i].tags["MusicUrl"],
-        language: tracksAddress[i].tags["Language"],
-        badge: tracksAddress[i].tags["Badge"],
-        author: tracksAddress[i].tags["Author"],
-        bootlegAvailable: tracksAddress[i].tags["Bootleg"],
-        tip: tracksAddress[i].tags["Tip"],
-        genre: tracksAddress[i].tags["Genre"],
-        status: tracksAddress[i].tags["Status"],
-        apiVersion: tracksAddress[i].tags["API"],
-        timestamp: tracksAddress[i].tags["Timestamp"],
-        content: tracksAddress[i].data,
+        id: releasesAddress[i].id,
+        timestamp: releasesAddress[i].tags["Timestamp"],
+        author: releasesAddress[i].tags["Author"],
+        artist: releasesAddress[i].tags["Artist"],
+        title: releasesAddress[i].tags["Title"],
+        genre: releasesAddress[i].tags["Genre"],
+        tgenre: releasesAddress[i].tags["Tgenre"],
+        imageUrl: releasesAddress[i].tags["ImageUrl"],
+        tip: releasesAddress[i].tags["Tip"],
+        payment: releasesAddress[i].tags["Payment"],
+        contractWallet: releasesAddress[i].tags["Contract"],
+        location: releasesAddress[i].tags["Location"],
+        badge: releasesAddress[i].tags["Badge"],
+        bootlegAvailable: releasesAddress[i].tags["Bootleg"],
+        license: releasesAddress[i].tags["License"],
+        playlist: releasesAddress[i].tags["Playlist"],
+        content: releasesAddress[i].data,
       };
-      tracksArtist.push(item);
+      releasesArtist.push(item);
     }
-    tracksByArtistStore.set(tracksArtist);
+    releasesByArtistStore.set(releasesArtist);
     accountSettings = await accountByAddress(txid);
     if (accountSettings.length == 1) {
       accountActivated = true;
@@ -53,25 +59,26 @@
       websiteUrl = accountSettings[0].tags["WebsiteUrl"];
       facebookUrl = accountSettings[0].tags["FacebookUrl"];
       twitterUrl = accountSettings[0].tags["TwitterUrl"];
+      titleArtist = handleName;
     }
-    referredTracks = await myTracksTipped(tipTag);
-    if (referredTracks.length >= 1) {
+    referredReleases = await myReleasesTipped(tipTag);
+    if (referredReleases.length >= 1) {
       referralFans = true;
-      for (let j = 0; j < referredTracks.length; j++) {
+      for (let j = 0; j < referredReleases.length; j++) {
         let fansOf = {
-          id: referredTracks[j].id,
-          track: referredTracks[j].tags["Track"],
-          title: referredTracks[j].tags["Title"],
-          artist: referredTracks[j].tags["Artist"],
-          genre: referredTracks[j].tags["Genre"],
-          imageUrl: referredTracks[j].tags["ImageUrl"],
-          musicUrl: referredTracks[j].tags["MusicUrl"],
+          id: referredReleases[j].id,
+          track: referredReleases[j].tags["Track"],
+          title: referredReleases[j].tags["Title"],
+          artist: referredReleases[j].tags["Artist"],
+          genre: referredReleases[j].tags["Genre"],
+          imageUrl: referredReleases[j].tags["ImageUrl"],
+          musicUrl: referredReleases[j].tags["MusicUrl"],
         };
-        tracksFansOf.push(fansOf);
+        releasesFansOf.push(fansOf);
       }
-      myFansStore.set(tracksFansOf);
+      myFansStore.set(releasesFansOf);
     }
-    documentTitle("Artist");
+    documentTitle(titleArtist);
   });
 </script>
 
@@ -134,8 +141,12 @@
       src={headerUrl}
       alt={handleName} />
   </div>
+{:else}
+  <h3 class="font-montserrat px-6 py-4 text-orange-600 text-bold text-2xl">
+    {titleArtist}
+  </h3>
 {/if}
-<TrackGridAddress {txid} tracksByArtistStore={$tracksByArtistStore} />
+<ReleaseGridAddress {txid} releasesByArtistStore={$releasesByArtistStore} />
 {#if referralFans}
-  <TrackGridFan {txid} myFansStore={$myFansStore} />
+  <ReleaseGridFan {txid} myFansStore={$myFansStore} />
 {/if}
