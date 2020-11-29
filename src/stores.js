@@ -48,13 +48,6 @@ function createCurrentReleaseStore() {
     apply: (filter) => set(filter),
   }
 }
-function createPreviousReleaseStore() {
-  const { subscribe, set} = writable(' ');
-  return {
-    subscribe,
-    apply: (filter) => set(filter),
-  }
-}
 export const genresStore = createGenresStore();
 export const badgesStore = createBadgesStore();
 export const locationsStore = createLocationsStore();
@@ -64,10 +57,9 @@ export const iconsStore = createIconsStore();
 export const volumeStore = writable(1.0);
 export const pausedStore = writable(true);
 export const currentReleaseStore = createCurrentReleaseStore();
-export const previousReleaseStore = createPreviousReleaseStore();
 export const releasesStore = writable([]);
 export const tracksStore = writable([]);
-export const tracksByArtistStore = writable([]);
+export const releasesByArtistStore = writable([]);
 export const myTipsStore = writable([]);
 export const myFansStore = writable([]);
 export const avatarStore = writable([]);
@@ -106,7 +98,6 @@ export const customGenresStore = {
 }
 function createCount() {
   const { subscribe, set, update } = writable(0);
-
   return {
     subscribe,
     increment: () => update(n => n + 1),
