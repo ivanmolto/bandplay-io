@@ -1,166 +1,38 @@
-<footer
-  class="font-montserrat bg-gray-200 sm:flex sm:items-center sm:justify-between mt-8 pb-8">
-  <nav class="block sm:flex sm:items-center sm:px-4">
-    <div class="sm:flex sm:items-center">
-      <div class="px-2 pt-2 pb-5 border-gray-800 sm:flex sm:py-0 sm:px-0">
-        <a
-          href="https://community.xyz/#iUKh_sWBD1XIMUBSYbcKnBLcMDl_HAbdu2ncYgdCQqM"
-          target="_blank"
-          rel="noopener"
-          aria-label="Bandplay Community"
-          class="block px-3 py-1 rounded font-semibold text-gray-900
-            hover:text-orange-600 sm:text-sm sm:px-2">
-          Community
-        </a>
-        <a
-          href="https://community.xyz/#iUKh_sWBD1XIMUBSYbcKnBLcMDl_HAbdu2ncYgdCQqM/opportunity"
-          target="_blank"
-          rel="noopener"
-          aria-label="Opportunities"
-          class="block px-3 py-1 rounded font-semibold text-gray-900
-            hover:text-orange-600 sm:text-sm sm:px-2">
-          Opportunities
-        </a>
-        <a
-          href="https://www.arweave.org/wallet"
-          target="_blank"
-          rel="noopener"
-          aria-label="Claim Token to Arweave Team"
-          class="block px-3 py-1 rounded font-semibold text-gray-900
-            hover:text-orange-600 sm:text-sm sm:px-2">
-          Claim Token
-        </a>
-        <div class="flex pt-4 sm:pt-0 md:pt-0 lg:pt-0 xl:pt-0">
-          <a
-            href="https://discord.gg/JWTzrzU"
-            target="_blank"
-            rel="noopener"
-            aria-label="Bandplay Discord"
-            class="flex-grow block px-3 py-1 rounded font-semibold text-gray-900
-              hover:text-orange-600 sm:text-sm sm:px-2">
-            <svg
-              class="h-5 w-5 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0, 0, 21.659, 24">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M20.222,0 C21.628,0 22.762,1.137 22.829,2.475 L22.829,24
-                L20.152,21.727 L18.682,20.389 L17.078,18.991 L17.748,21.196
-                L3.71,21.196 C2.308,21.196 1.17,20.131 1.17,18.72 L1.17,2.48
-                C1.17,1.142 2.31,0.003 3.715,0.003 L20.215,0.003 L20.222,0 z
-                M14.104,5.683 L14.074,5.683 L13.872,5.883 C15.945,6.483
-                16.948,7.42 16.948,7.42 C15.612,6.752 14.408,6.418 13.204,6.283
-                C12.334,6.148 11.464,6.219 10.729,6.283 L10.529,6.283
-                C10.059,6.283 9.059,6.483 7.719,7.018 C7.252,7.221 6.984,7.354
-                6.984,7.354 C6.984,7.354 7.986,6.352 10.194,5.817 L10.059,5.682
-                C10.059,5.682 8.387,5.618 6.582,6.952 C6.582,6.952 4.777,10.096
-                4.777,13.972 C4.777,13.972 5.777,15.712 8.52,15.778 C8.52,15.778
-                8.92,15.245 9.325,14.776 C7.785,14.308 7.185,13.372 7.185,13.372
-                C7.185,13.372 7.319,13.438 7.52,13.572 L7.58,13.572 C7.61,13.572
-                7.624,13.587 7.64,13.602 L7.64,13.608 C7.656,13.624 7.67,13.638
-                7.7,13.638 C8.03,13.774 8.36,13.908 8.63,14.038 C9.096,14.24
-                9.695,14.441 10.43,14.574 C11.36,14.709 12.426,14.774
-                13.64,14.574 C14.24,14.439 14.84,14.307 15.44,14.039
-                C15.83,13.839 16.31,13.639 16.837,13.302 C16.837,13.302
-                16.237,14.238 14.632,14.706 C14.962,15.172 15.427,15.706
-                15.427,15.706 C18.171,15.646 19.237,13.906 19.297,13.98
-                C19.297,10.11 17.482,6.96 17.482,6.96 C15.847,5.746 14.317,5.7
-                14.047,5.7 L14.103,5.68 z M14.272,10.096 C14.975,10.096
-                15.542,10.696 15.542,11.431 C15.542,12.171 14.972,12.771
-                14.272,12.771 C13.572,12.771 13.002,12.171 13.002,11.437
-                C13.004,10.697 13.575,10.099 14.272,10.099 z M9.729,10.096
-                C10.429,10.096 10.995,10.696 10.995,11.431 C10.995,12.171
-                10.425,12.771 9.725,12.771 C9.025,12.771 8.455,12.171
-                8.455,11.437 C8.455,10.697 9.025,10.099 9.725,10.099 z" />
-            </svg>
-          </a>
-          <a
-            href="https://twitter.com/bandplayio"
-            target="_blank"
-            rel="noopener"
-            aria-label="Bandplay Twitter"
-            class="flex-grow block px-3 py-1 rounded font-semibold text-gray-900
-              hover:text-orange-600 sm:text-sm sm:px-2">
-            <svg
-              class="h-5 w-5 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0, 0, 24, 20">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M23.954,4.569 C23.069,4.958 22.124,5.224 21.128,5.345
-                C22.142,4.734 22.923,3.77 23.292,2.622 C22.34,3.177 21.287,3.581
-                20.164,3.806 C19.268,2.846 17.992,2.247 16.573,2.247
-                C13.856,2.247 11.653,4.45 11.653,7.163 C11.653,7.554
-                11.698,7.929 11.781,8.288 C7.69,8.094 4.065,6.13 1.64,3.161
-                C1.212,3.884 0.974,4.722 0.974,5.636 C0.974,7.346 1.844,8.849
-                3.161,9.733 C2.355,9.707 1.595,9.484 0.933,9.116 L0.933,9.177
-                C0.933,11.562 2.626,13.552 4.879,14.005 C4.466,14.116
-                4.03,14.175 3.583,14.175 C3.27,14.175 2.968,14.146 2.668,14.09
-                C3.299,16.042 5.113,17.466 7.272,17.507 C5.591,18.826
-                3.463,19.611 1.169,19.611 C0.78,19.611 0.391,19.588
-                -0.001,19.545 C2.188,20.938 4.767,21.753 7.556,21.753
-                C16.611,21.753 21.556,14.257 21.556,7.767 C21.556,7.558
-                21.556,7.347 21.541,7.137 C22.501,6.449 23.34,5.577 24,4.589
-                L23.954,4.569 z" />
-            </svg>
-          </a>
-          <a
-            href="https://github.com/ivanmolto/bandplay-io"
-            target="_blank"
-            rel="noopener"
-            aria-label="Bandplay Github"
-            class="flex-grow block px-3 py-1 rounded font-semibold text-gray-900
-              hover:text-orange-600 sm:text-sm sm:px-2">
-            <svg
-              class="h-5 w-5 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0, 0, 24, 24">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12,0.297 C5.37,0.297 0,5.67 0,12.297 C0,17.6 3.438,22.097
-                8.205,23.682 C8.805,23.795 9.025,23.424 9.025,23.105
-                C9.025,22.82 9.015,22.065 9.01,21.065 C5.672,21.789 4.968,19.455
-                4.968,19.455 C4.422,18.07 3.633,17.7 3.633,17.7 C2.546,16.956
-                3.717,16.971 3.717,16.971 C4.922,17.055 5.555,18.207
-                5.555,18.207 C6.625,20.042 8.364,19.512 9.05,19.205
-                C9.158,18.429 9.467,17.9 9.81,17.6 C7.145,17.3 4.344,16.268
-                4.344,11.67 C4.344,10.36 4.809,9.29 5.579,8.45 C5.444,8.147
-                5.039,6.927 5.684,5.274 C5.684,5.274 6.689,4.952 8.984,6.504
-                C9.944,6.237 10.964,6.105 11.984,6.099 C13.004,6.105
-                14.024,6.237 14.984,6.504 C17.264,4.952 18.269,5.274
-                18.269,5.274 C18.914,6.927 18.509,8.147 18.389,8.45 C19.154,9.29
-                19.619,10.36 19.619,11.67 C19.619,16.28 16.814,17.295
-                14.144,17.59 C14.564,17.95 14.954,18.686 14.954,19.81
-                C14.954,21.416 14.939,22.706 14.939,23.096 C14.939,23.411
-                15.149,23.786 15.764,23.666 C20.565,22.092 24,17.592 24,12.297
-                C24,5.67 18.627,0.297 12,0.297" />
-            </svg>
-          </a>
-          <a
-            href="https://arweave.net/27WsYOcNHWweInDArUK94_GsBeuQKPXalsnwVPPRfe4?to=huguJpLCDyyGMLeUtOnKaLhSyCPrrn-if5XEDzHuqIM"
-            target="_blank"
-            rel="noopener"
-            aria-label="Bandplay mail"
-            class="flex-grow block px-3 py-1 rounded font-semibold text-gray-900
-              hover:text-orange-600 sm:text-sm sm:px-2">
-            <svg
-              class="h-5 w-5 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0, 0, 22, 18">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M18,2 C19.105,2 20,2.895 20,4 L20,16 C20,17.105 19.105,18
-                18,18 L2,18 C0.895,18 0,17.105 0,16 L0,4 C0,2.9 0.9,2 2,2 L18,2
-                z M13.63,11.1 L20,16 L20,14 L14.88,10.1 L20,6 L20,4 L10,12 L0,4
-                L0,6 L5.12,10.1 L0,14 L0,16 L6.37,11.1 L10,14 L13.63,11.1 z" />
-            </svg>
-          </a>
-        </div>
-      </div>
+<footer class="bg-gray-50 pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20 font-montserrat">
+  <div class="max-w-screen-lg xl:max-w-screen-xl mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
+    <ul class="text-sm font-medium pb-14 sm:pb-20 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
+      <li class="space-y-5 row-span-2"><h2 class="text-sm font-semibold tracking-wide text-gray-900 uppercase">Getting started</h2>
+        <ul class="space-y-4 text-gray-600">
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="#/faq" aria-label="Frequently Asked Questions">FAQ</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://community.xyz/#iUKh_sWBD1XIMUBSYbcKnBLcMDl_HAbdu2ncYgdCQqM" target="_blank" rel="noopener" aria-label="Bandplay at CommunityXYZ">CommunityXYZ</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://www.arweave.org/wallet" target="_blank" rel="noopener" aria-label="Claim A Token">Claim A Token</a></li>
+        </ul>
+      </li>
+      <li class="space-y-5 row-span-2"><h2 class="text-sm font-semibold tracking-wide text-gray-900 uppercase">Governance</h2>
+        <ul class="space-y-4 text-gray-600">
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="#/terms" aria-label="Terms And Conditions">Terms & Conditions</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="#/privacy" aria-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="#/pricing" aria-label="Pricing">Pricing</a></li>
+        </ul>
+      </li>
+      <li class="space-y-5 row-span-2"><h2 class="text-sm font-semibold tracking-wide text-gray-900 uppercase">Developers</h2>
+        <ul class="space-y-4 text-gray-600">
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://github.com/ivanmolto/bandplay-io" target="_blank" rel="noopener" aria-label="Bandplay at GitHub">GitHub</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://community.xyz/#iUKh_sWBD1XIMUBSYbcKnBLcMDl_HAbdu2ncYgdCQqM/opportunity" target="_blank" rel="noopener" aria-label="Bounties">Bounties</a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://arweave.org" target="_blank" rel="noopener" aria-label="Arweave blockchain">Arweave blockchain</a></li>
+        </ul>
+      </li>
+      <li class="space-y-5"><h2 class="text-sm font-semibold tracking-wide text-gray-900 uppercase">Social</h2>
+        <ul class="space-y-4 text-gray-600">
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://discord.com/invite/JWTzrzU" target="_blank" rel="noopener" aria-label="Bandplay Discord Invite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 w-5 fill-current"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg></a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://twitter.com/bandplayio" target="_blank" rel="noopener" aria-label="Bandplay Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-5 w-5 fill-current"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a></li>
+          <li><a class="text-orange-500 hover:text-orange-600 transition-colors duration-200" href="https://www.instagram.com/bandplayio" target="_blank" rel="noopener" aria-label="Bandplay Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 w-5 fill-current"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
+        </ul>
+      </li>
+    </ul> 
+    <div class="pt-10 sm:pt-12">
+      <img src="https://arweave.net/mA-de7TIW-IjWH1t_4GDqIO9JtucT831rTKB1w2dCbo" alt="bandplayio logo" />
+      <div class="mt-2 font-montserrat text-gray-600 text-sm">Built by True Music Innovators in the Permaweb</div>
     </div>
-  </nav>
+  </div>
 </footer>
