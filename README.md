@@ -2,6 +2,8 @@
 
 An ownerless music platform, a mesh of artists and fans empowered by a profit-sharing community.
 
+Arweave - Disrupt the Music Industry Hackathon Winner 🏆
+
 ## About
 
 Bandplay is an ownerless music platform that is laying the foundation for a decentalized music industry.
